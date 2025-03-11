@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "quotex-bot"
+version = "0.1.0"
+description = "Bot de trading para Quotex"
+authors = ["TuNombre <tucorreo@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+numpy = "^1.26.0"
+pandas = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
