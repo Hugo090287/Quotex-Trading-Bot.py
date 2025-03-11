@@ -1,0 +1,1 @@
+# Quotex-Trading-Bot.py
